@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(212, 235, 160);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center; 
+    
+}
+
+header {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    width: 100%;
+    color: #75B79E;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: red;
+    
+}
+
+.carta {
+    width: 117px;
+    height: 146px;
+    border-radius: 5px;
+    background-color: #A7E9AF;
+    border: 1px solid #99CEA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    background-color: #A7E9AF ;
+}
